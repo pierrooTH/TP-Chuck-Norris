@@ -6,12 +6,13 @@ body {
     height: 100vh;
     position: relative;
     background-color: salmon;
+    font-family: 'Poppins', sans-serif;
 }
 
 .bloc__citations {
     position: absolute;
-    width: 500px;
-    height: 400px;
+    width: 550px;
+    height: 450px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -41,10 +42,18 @@ p {
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 1.5rem;
+    font-weight: 500;
 }
 .author__citations {
+    font-size: 1rem;
     position: absolute;
     right: 0;
     bottom: 0;
     margin: 20px 60px 95px 31px;
+}
+
+@media screen and (max-width: 550px) {
+    .bloc__citations {
+       width: 100%;
+    }
 }
