@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    position: relative;
+    background-color: salmon;
+}
+
+.bloc__citations {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 3px;
+
+}
+p {
+    color: salmon;
+}
+.button {
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px 60px 30px 30px;
+    color: white;
+    background-color: salmon;
+
+}
+.text__citations {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5rem;
+}
+.author__citations {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px 60px 95px 31px;
+}
