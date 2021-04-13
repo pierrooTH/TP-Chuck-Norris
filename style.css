@@ -56,4 +56,10 @@ p {
     .bloc__citations {
        width: 100%;
     }
+    .text__citations {
+        font-size: 1rem;
+    }
+    .author__citations {
+        font-size: 0.8rem;
+    }
 }
