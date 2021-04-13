@@ -3,9 +3,9 @@
 
 
 function randomColor() {
-    var r = Math.floor(256*Math.random());
-    var g = Math.floor(256*Math.random());
-    var b = Math.floor(256*Math.random());
+    let r = Math.floor(256*Math.random());
+    let g = Math.floor(256*Math.random());
+    let b = Math.floor(256*Math.random());
     document.body.style.backgroundColor = "rgba(" + r + "," + g + "," + b + ",1)";
     myButton.style.backgroundColor = "rgba(" + r + "," + g + "," + b + ",1)";
     citationsText.style.color = "rgba(" + r + "," + g + "," + b + ",1)";
